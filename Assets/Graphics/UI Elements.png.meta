@@ -32,6 +32,18 @@ TextureImporter:
   - first:
       213: -3620633303540121723
     second: UI Elements_9
+  - first:
+      213: -1379019653886491793
+    second: UI Elements_10
+  - first:
+      213: -6218441047488261154
+    second: UI Elements_11
+  - first:
+      213: -8101243784591685988
+    second: UI Elements_12
+  - first:
+      213: 3087847285327378290
+    second: UI Elements_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -239,8 +251,8 @@ TextureImporter:
         serializedVersion: 2
         x: 68
         y: 466
-        width: 64
-        height: 65
+        width: 63
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +270,10 @@ TextureImporter:
       name: UI Elements_6
       rect:
         serializedVersion: 2
-        x: 133
+        x: 134
         y: 466
-        width: 65
-        height: 65
+        width: 63
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,8 +293,8 @@ TextureImporter:
         serializedVersion: 2
         x: 200
         y: 466
-        width: 64
-        height: 65
+        width: 63
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +312,10 @@ TextureImporter:
       name: UI Elements_8
       rect:
         serializedVersion: 2
-        x: 331
+        x: 332
         y: 466
-        width: 65
-        height: 65
+        width: 63
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +333,10 @@ TextureImporter:
       name: UI Elements_9
       rect:
         serializedVersion: 2
-        x: 397
+        x: 398
         y: 466
-        width: 65
-        height: 65
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,6 +346,90 @@ TextureImporter:
       bones: []
       spriteID: 58fba80813de0cdc0800000000000000
       internalID: -3620633303540121723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Elements_10
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 786
+        width: 190
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6340df5eecbcdce0800000000000000
+      internalID: -1379019653886491793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Elements_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 583
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed311c360d8a3b9a0800000000000000
+      internalID: -6218441047488261154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Elements_12
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 582
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96429c33b9929f80800000000000000
+      internalID: -8101243784591685988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Elements_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 583
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277b792febc3ada20800000000000000
+      internalID: 3087847285327378290
       vertices: []
       indices: 
       edges: []

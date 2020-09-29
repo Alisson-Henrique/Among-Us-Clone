@@ -10,6 +10,7 @@ public class Conn : MonoBehaviourPunCallbacks
     void Start()
     {
         PhotonNetwork.ConnectUsingSettings();
+        DontDestroyOnLoad(this.gameObject);
 
     }
 
