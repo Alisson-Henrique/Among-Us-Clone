@@ -44,6 +44,15 @@ TextureImporter:
   - first:
       213: 3087847285327378290
     second: UI Elements_13
+  - first:
+      213: 3725589102470056504
+    second: UI Elements_14
+  - first:
+      213: 214629991471725063
+    second: UI Elements_15
+  - first:
+      213: -3852812332515841185
+    second: UI Elements_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -380,7 +389,7 @@ TextureImporter:
         width: 160
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -401,7 +410,7 @@ TextureImporter:
         width: 160
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -422,7 +431,7 @@ TextureImporter:
         width: 160
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -430,6 +439,69 @@ TextureImporter:
       bones: []
       spriteID: 277b792febc3ada20800000000000000
       internalID: 3087847285327378290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Elements_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 533
+        width: 207
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a4bc7bc83f3b330800000000000000
+      internalID: 3725589102470056504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Elements_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 533
+        width: 209
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a31df07d48af200800000000000000
+      internalID: 214629991471725063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Elements_16
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 533
+        width: 146
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b262eb89f088ac0800000000000000
+      internalID: -3852812332515841185
       vertices: []
       indices: 
       edges: []
