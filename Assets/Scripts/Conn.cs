@@ -6,6 +6,9 @@ using Photon.Realtime;
 
 public class Conn : MonoBehaviourPunCallbacks
 {
+    public GameObject playerPrefab;
+
+    public string nameRoom;
 
     public static Conn instance;
 
@@ -27,9 +30,10 @@ public class Conn : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        //PhotonNetwork.ConnectUsingSettings();
+        PhotonNetwork.ConnectUsingSettings();
         PhotonNetwork.AutomaticallySyncScene = true;
 
+        
     }
 
     // Update is called once per frame
@@ -38,10 +42,20 @@ public class Conn : MonoBehaviourPunCallbacks
         
     }
 
+    public void startGame()
+    {
+
+    }
+    public void createRoom()
+    {
+        PhotonNetwork.JoinOrCreateRoom(nameRoom,new RoomOptions(),TypedLobby.Default);
+
+    }
+
     public override void OnJoinedLobby()
     {
         Debug.Log("Estou no Lobby!");
-
+        
 
 
     }
@@ -50,13 +64,16 @@ public class Conn : MonoBehaviourPunCallbacks
     {
         if (PhotonNetwork.IsMasterClient)
         {
-            PhotonNetwork.LoadLevel("GamePlayTheSkeld");
+            //PhotonNetwork.LoadLevel("GamePlayTheSkeld");
         }
+
+        
 
     }
     public override void OnConnectedToMaster()
     {
         Debug.Log("Estou Conectado!");
+        PhotonNetwork.JoinLobby();
     }
     public override void OnDisconnected(DisconnectCause cause)
     {

@@ -45,6 +45,6 @@ public class MainMenuController : MonoBehaviour
     }
     public void navLobby()
     {
-        SceneManager.LoadScene("Lobby");
+        SceneManager.LoadScene("Room");
     }
 }
